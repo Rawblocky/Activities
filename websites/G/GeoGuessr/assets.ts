@@ -151,6 +151,7 @@ export const logo = 'https://github.com/Rawblocky/geoguessr-image-assets/blob/ma
 // sorry lol
 // these are used for map icons on GeoGuessr
 // for community-made maps
+
 export const mapAvatar: Record<string, string> = {
   'darknight-desserthills-cactus-beige': 'https://github.com/Rawblocky/geoguessr-image-assets/blob/main/map/map-avatar/layered/darknight-desserthills-cactus-beige.png?raw=true',
   'darknight-desserthills-cactus-blue': 'https://github.com/Rawblocky/geoguessr-image-assets/blob/main/map/map-avatar/layered/darknight-desserthills-cactus-blue.png?raw=true',
