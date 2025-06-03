@@ -351,6 +351,16 @@ presence.on('UpdateData', async () => {
         }`
         presenceData.state = mapName
       }
+      else if (gameInfo.type === 'challenge') {
+        presenceData.details = `${gameMode} ${strings.challenge} | ${strings.classicScore
+          .replace('{0}', gameInfo.player.totalScore.amount)
+          .replace('{1}', gameInfo.round)
+          .replace('{2}', gameInfo.roundCount)
+        }`
+        presenceData.state = mapName
+        presenceData.smallImageKey = gameModeIcons.challenges
+        presenceData.smallImageText = strings.challenge
+      }
       else {
         presenceData.details = `${gameMode} | ${
           strings.classicScore
