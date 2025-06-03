@@ -368,7 +368,6 @@ presence.on('UpdateData', async () => {
   else if (currentPath[0] === 'challenge') {
     if (!alreadyFetchedList.challenge) {
       alreadyFetchedList.challenge = true
-      console.log('FETCHING CHALLENGE')
       const gameId = currentPath[1]
       const gameInfo = await fetchUrl(`https://www.geoguessr.com/api/v3/challenges/${gameId}`, true, 60)
       if (!isConnected()) {
@@ -383,7 +382,6 @@ presence.on('UpdateData', async () => {
           url: `https://www.geoguessr.com/maps/${mapId}`,
         },
       ]
-      console.log('GETTING INFO')
       const mapIconInfo = await getMapIconFromInfo(gameInfo.map)
       if (!isConnected()) {
         return
