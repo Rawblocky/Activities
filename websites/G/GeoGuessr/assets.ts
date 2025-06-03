@@ -16,12 +16,13 @@ export const gameModeIcons: Record<string, string> = {
   bullseye: 'https://github.com/Rawblocky/geoguessr-image-assets/blob/main/party-icons/bullseye.png?raw=true',
   campaign: 'https://github.com/Rawblocky/geoguessr-image-assets/blob/main/gameModes/globetrotter.png?raw=true',
   city_streaks: 'https://github.com/Rawblocky/geoguessr-image-assets/blob/main/party-icons/cs.png?raw=true',
-  live_challenge: 'https://github.com/Rawblocky/geoguessr-image-assets/blob/main/party-icons/live-challenge-icon.png?raw=true',
+  live_challenge: 'https://github.com/Rawblocky/geoguessr-image-assets/blob/main/party-icons/live-challenge-icon.png?raw=true/',
   party: 'https://github.com/Rawblocky/geoguessr-image-assets/blob/main/party-icons/host-a-party.png?raw=true',
-  quiz: 'https://github.com/Rawblocky/geoguessr-image-assets/blob/main/party-icons/quiz-icon.png?raw=true',
-  solo_duels: 'https://github.com/Rawblocky/geoguessr-image-assets/blob/main/party-icons/duels-icon.png?raw=true',
-  team_duels: 'https://github.com/Rawblocky/geoguessr-image-assets/blob/main/party-icons/team-duels-icon.png?raw=true',
-  streaks: 'https://github.com/Rawblocky/geoguessr-image-assets/blob/main/gameModes/lightning-bolt.png?raw=true',
+  quiz: 'https://github.com/Rawblocky/geoguessr-image-assets/blob/main/party-icons/quiz-icon.png?raw=true/',
+  solo_duels: 'https://github.com/Rawblocky/geoguessr-image-assets/blob/main/party-icons/duels-icon.png?raw=true/',
+  team_duels: 'https://github.com/Rawblocky/geoguessr-image-assets/blob/main/party-icons/team-duels-icon.png?raw=true/',
+  streaks: 'https://github.com/Rawblocky/geoguessr-image-assets/blob/main/gameModes/lightning-bolt.png?rpresenceData.largeImageKeyaw=true',
+  challenges: 'https://github.com/Rawblocky/geoguessr-image-assets/blob/main/gameModes/map-challeng e.png?raw=true',
 }
 export const movementIcons: Record<string, string> = {
   moving: 'https://github.com/Rawblocky/geoguessr-image-assets/blob/main/movement/moving.png?raw=true',
@@ -146,7 +147,7 @@ export const mapAvatarOfficial: Record<string, string> = {
   'oman': 'https://github.com/Rawblocky/geoguessr-image-assets/blob/main/map/official/oman.png?raw=true',
 }
 
-export const logo = 'https://github.com/Rawblocky/geoguessr-image-assets/blob/main/brand/icon.png?raw=true'
+export const logo = 'https://i.imgur.com/HgQiXBi.png'
 
 // sorry lol
 // these are used for map icons on GeoGuessr
