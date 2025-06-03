@@ -417,7 +417,7 @@ presence.on('UpdateData', async () => {
   }
   else if (currentPath[0] === 'duels' || currentPath[0] === 'team-duels') {
     // duels (Legacy UI support)
-    if (!currentPath[0] && !cooldowns[currentPath[0]]) {
+    if (currentPath[0] && !cooldowns[currentPath[0]]) {
       cooldowns[currentPath[0]] = true
       setTimeout(() => {
         cooldowns[currentPath[0] as string] = false
