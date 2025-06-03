@@ -22,7 +22,7 @@ export const gameModeIcons: Record<string, string> = {
   solo_duels: 'https://github.com/Rawblocky/geoguessr-image-assets/blob/main/party-icons/duels-icon.png?raw=true/',
   team_duels: 'https://github.com/Rawblocky/geoguessr-image-assets/blob/main/party-icons/team-duels-icon.png?raw=true/',
   streaks: 'https://github.com/Rawblocky/geoguessr-image-assets/blob/main/gameModes/lightning-bolt.png?rpresenceData.largeImageKeyaw=true',
-  challenges: 'https://github.com/Rawblocky/geoguessr-image-assets/blob/main/gameModes/map-challeng e.png?raw=true',
+  challenges: 'https://github.com/Rawblocky/geoguessr-image-assets/blob/main/gameModes/map-challenge.png?raw=true',
 }
 export const movementIcons: Record<string, string> = {
   moving: 'https://github.com/Rawblocky/geoguessr-image-assets/blob/main/movement/moving.png?raw=true',
