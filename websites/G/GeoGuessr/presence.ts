@@ -242,9 +242,10 @@ presence.on('UpdateData', async () => {
     if (!isConnected() || !mapInfo) {
       return
     }
-    if (mapInfo.images && mapInfo.images.backgroundLarge && mapAvatarOfficial[mapInfo.id]) {
+    let mapId = mapInfo.slug || mapInfo.id
+    if (mapId && mapInfo.images && mapInfo.images.backgroundLarge && mapAvatarOfficial[mapId]) {
       return {
-        url: mapAvatarOfficial[mapInfo.id],
+        url: mapAvatarOfficial[mapId],
         name: mapInfo.name,
       }
     }
